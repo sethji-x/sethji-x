@@ -73,8 +73,8 @@ Ethical Hacker | Cybersecurity Student | Pentester-in-Progress
 
 ## 📊 Hacker Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME\&show_icons=true\&theme=tokyonight)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME\&layout=compact\&theme=tokyonight)
+![Stats](https://github-readme-stats.vercel.app/api?username=sethji-x\&show_icons=true\&theme=tokyonight)
+![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sethji-x\&layout=compact\&theme=tokyonight)
 
 ---
 
@@ -90,9 +90,8 @@ Ethical Hacker | Cybersecurity Student | Pentester-in-Progress
 
 ## 🌐 Connect With the Operator
 
-* 💼 LinkedIn → [https://www.linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/YOUR_LINKEDIN)
-* 🐦 Twitter/X → [https://twitter.com/YOUR_TWITTER](https://twitter.com/YOUR_TWITTER)
-* 📧 Email → YOUR_EMAIL
+* 💼 LinkedIn → [https://www.linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/akshat-aggarwal-5a9b7a3a0)
+* 📧 Email → aggarwalsahab2707@gmail.com
 
 ---
 
