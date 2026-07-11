@@ -1,105 +1,124 @@
-<!-- ==================== HACKER MODE: NEXT LEVEL ==================== -->
+<!-- AEGIS v1.0 | Autonomous Ethical Guardian Intelligence System -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=Akshat+Aggarwal+%7C+Ethical+Hacker;Cybersecurity+%26+Pentesting+Enthusiast;Linux+%7C+Networking+%7C+Python;Breaking+Systems+to+Secure+Them" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&pause=1200&color=00FF41&center=true&vCenter=true&width=720&lines=AEGIS+SYSTEM+ONLINE;ATLAS+AI+ASSISTANT+ACTIVE" />
 </p>
 
-```terminal
-┌──(akshat㉿root)-[~/cyber]
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00FF41?style=for-the-badge&logo=linux&logoColor=00FF41&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/OPERATOR-Akshat%20Aggarwal-58A6FF?style=for-the-badge&logo=shield&logoColor=58A6FF&labelColor=0D1117" />
+</p>
+
+```bash
+┌──[AEGIS]──(operator@sethji-x)-[~/mission]
 └─$ whoami
-Ethical Hacker | Cybersecurity Student | Pentester-in-Progress
+Akshat Aggarwal — Cybersecurity Student | Offensive Security Focus
 ```
 
 ---
 
-## 🧠 Operator Profile
-
-🎓 **BCA Student** focused on Cybersecurity
-🛡️ **Ethical Hacker** learning real-world Pentesting
-🐧 **Linux-first mindset** (Kali / Ubuntu)
-🌐 Networking + Web Security + System Hardening
-🎯 Target: **Red Team / Blue Team Security Engineer**
+### MODULE 00 — BOOT LOADER
+**System Status:** Online  
+**Uptime:** Since Oct 2025  
+**Core:** Python • Bash • Linux
 
 ---
 
-## 🧰 Offensive & Defensive Arsenal
+### MODULE 01 — ATLAS AI
+> "Adaptive Threat & Learning Assistance System"  
+> *Onboard AI Assistant for continuous learning and ethical security operations.*
 
-### 🔐 Pentesting Tools
-
-* Kali Linux
-* Nmap
-* Burp Suite
-* Metasploit *(learning)*
-* Wireshark
-* Hydra
-* SQLmap
-
-### 💻 Scripting & Languages
-
-* Python (Automation & Exploits)
-* Bash (Linux Automation)
-* C / C++ (Foundations)
-
-### 🧠 Security Knowledge
-
-* Networking (TCP/IP, DNS, HTTP/S)
-* Linux Internals
-* OWASP Top 10
-* Basic Malware Analysis *(learning)*
+**Current Directive:** Learn relentlessly. Build responsibly. Secure ethically.
 
 ---
 
-## 🔥 Real-World Style Projects
+### MODULE 02 — whoami
 
-🔎 **Network Recon Tool**
-
-> Python-based scanner using Nmap for live host discovery & port scanning
-
-🧪 **Web Pentesting Lab**
-
-> Hands-on testing on DVWA & OWASP Juice Shop
-
-🛡️ **Linux Hardening Toolkit**
-
-> Bash scripts to secure Linux systems
-
-📜 **Cybersecurity Notes Vault**
-
-> Clean, structured notes from real practice
-
-⚠️ *All projects are for educational & ethical purposes only*
-
----
-
-## 📊 Hacker Stats
-
-![Stats](https://github-readme-stats.vercel.app/api?username=sethji-x\&show_icons=true\&theme=tokyonight)
-![Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sethji-x\&layout=compact\&theme=tokyonight)
-
----
-
-## 🕶️ Hacker Identity Badges
-
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge\&logo=linux)
-![Kali](https://img.shields.io/badge/Kali_Linux-000000?style=for-the-badge\&logo=kalilinux)
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge\&logo=python)
-![Networking](https://img.shields.io/badge/Networking-000000?style=for-the-badge)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-000000?style=for-the-badge)
-
----
-
-## 🌐 Connect With the Operator
-
-* 💼 LinkedIn → [https://www.linkedin.com/in/YOUR_LINKEDIN](https://www.linkedin.com/in/akshat-aggarwal-5a9b7a3a0)
-* 📧 Email → aggarwalsahab2707@gmail.com
-
----
-
-```terminal
-┌──(akshat㉿root)-[~]
-└─$ echo "Hack smart. Hack ethical. Secure everything."
+```bash
+┌──[AEGIS]──(operator@sethji-x)-[~]
+└─$ cat profile.txt
+Name          : Akshat Aggarwal
+Role          : Cybersecurity Student
+Focus         : Offensive Security & Defensive Operations
+Platform      : Linux (Kali / Ubuntu)
+Primary Lang  : Python, Bash
 ```
 
-<!-- ==================== END ==================== -->
+---
 
+### MODULE 03 — MISSION CONTROL (Career Roadmap)
 
+```mermaid
+flowchart TD
+    A[Python & Bash] --> B[Linux Mastery]
+    B --> C[Networking & Infrastructure]
+    C --> D[ISC2 CC]
+    D --> E[eJPT]
+    E --> F[PJPT]
+    F --> G[OSCP]
+    G --> H[CISSP]
+    H --> I[Security Engineer]
+```
+
+---
+
+### MODULE 04 — MODULES LOADED (Active Operations)
+
+| Operation | Status | Version | Language | Description |
+|---------|--------|--------|----------|-----------|
+| **[Overlord-C2-Framework](https://github.com/sethji-x/Overlord-C2-Framework)** | Active | v0.1 | Python | Educational remote monitoring framework |
+| **[-SysWatch](https://github.com/sethji-x/-SysWatch)** | Active | v0.2 | Python + ML | AI-powered security monitoring system |
+| **[Advance-Port-Scanner](https://github.com/sethji-x/Advance-Port-Scanner)** | Active | v1.0 | Python | Multi-threaded recon tool with service detection |
+
+---
+
+### MODULE 05 — LEARNING MATRIX
+
+**Current Focus**  
+- Advanced Linux internals & scripting  
+- Network reconnaissance & enumeration  
+- Web application security  
+
+**Next Targets**  
+- ISC2 Certified in Cybersecurity (CC)  
+- eJPT → PJPT → OSCP pathway  
+
+---
+
+### MODULE 06 — SYSTEM TELEMETRY
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sethji-x&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=58A6FF&icon_color=FF6B00)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sethji-x&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=58A6FF)
+
+---
+
+### MODULE 07 — COMMAND CENTER
+
+<p align="center">
+  <a href="https://github.com/sethji-x"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/akshat-aggarwal-cyber/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://tryhackme.com/p/sethji.x"><img src="https://img.shields.io/badge/TryHackMe-212121?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
+  <a href="https://app.hackthebox.com/profile/drSHADOW"><img src="https://img.shields.io/badge/Hack%20The%20Box-111111?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" /></a>
+  <a href="mailto:aggarwalsahab2707@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
+
+---
+
+### MODULE 08 — SHUTDOWN SEQUENCE
+
+```bash
+┌──[AEGIS]──(operator@sethji-x)-[~]
+└─$ logout
+
+Saving session...
+Stopping ATLAS AI...
+Disconnecting from secure channel...
+System Halted.
+
+Goodbye, Operator.
+Stay ethical. Stay sharp.
+```
+
+---
+
+**AEGIS System v1.0** | Built with precision • Maintained with discipline
