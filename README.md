@@ -1,124 +1,121 @@
-<!-- AEGIS v1.0 | Autonomous Ethical Guardian Intelligence System -->
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&pause=1200&color=00FF41&center=true&vCenter=true&width=720&lines=AEGIS+SYSTEM+ONLINE;ATLAS+AI+ASSISTANT+ACTIVE" />
-</p>
+<img src="./assets/banner.svg" width="100%" alt="banner"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00FF41?style=for-the-badge&logo=linux&logoColor=00FF41&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/OPERATOR-Akshat%20Aggarwal-58A6FF?style=for-the-badge&logo=shield&logoColor=58A6FF&labelColor=0D1117" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=22&duration=3500&pause=900&color=B90E0E&center=true&vCenter=true&width=650&lines=Welcome+to+the+graveyard...;Where+dead+bugs+come+to+haunt+you;Cybersecurity+Engineer+in+training;Every+exploit+has+a+headstone+here" alt="Typing SVG" />
 
-```bash
-┌──[AEGIS]──(operator@sethji-x)-[~/mission]
-└─$ whoami
-Akshat Aggarwal — Cybersecurity Student | Offensive Security Focus
+</div>
+
+<br>
+
+## ⚰️ About This Grave
+
+```
+> whoami
+Akshat Aggarwal — BCA'27, Amity University Gurgaon
+Digging through networks, exhuming vulnerabilities.
+Currently haunting: Cybersecurity & Red-Team fundamentals.
+Long-term target: Ethical Hacker, Google (CISO track).
 ```
 
----
+- 🔭 Building offensive-security tools from scratch — because reading about exploits is not the same as burying one yourself
+- 🩸 Interested in Red Teaming, C2 architecture, and network security
+- 🕯️ Currently sharpening skills for **ISC2 CC → CEH → OSCP → CISSP**
+- 🦇 Fun fact: I'd rather break something to understand it than read the manual
 
-### MODULE 00 — BOOT LOADER
-**System Status:** Online  
-**Uptime:** Since Oct 2025  
-**Core:** Python • Bash • Linux
+<br>
 
----
+## 🪦 Graveyard of Projects
 
-### MODULE 01 — ATLAS AI
-> "Adaptive Threat & Learning Assistance System"  
-> *Onboard AI Assistant for continuous learning and ethical security operations.*
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Current Directive:** Learn relentlessly. Build responsibly. Secure ethically.
+### 🧟 Overload — C2 Framework
+Red-team practice command-and-control framework. Multiple agents, encrypted comms, built to understand adversary post-exploitation workflows from the ground up.
+<br><b>Tech:</b> Python
 
----
+</td>
+<td width="50%" valign="top">
 
-### MODULE 02 — whoami
+### 🕸️ Multi-threaded Port Scanner
+Fast, multi-threaded scanner with service and banner detection — reconnaissance without the wait.
+<br><b>Tech:</b> Python, Sockets, Threading
 
-```bash
-┌──[AEGIS]──(operator@sethji-x)-[~]
-└─$ cat profile.txt
-Name          : Akshat Aggarwal
-Role          : Cybersecurity Student
-Focus         : Offensive Security & Defensive Operations
-Platform      : Linux (Kali / Ubuntu)
-Primary Lang  : Python, Bash
-```
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
----
+### 👁️ SysWatch
+File integrity and intrusion-monitoring tool. Watches logs and files like a crypt keeper watches the dead — nothing moves without it knowing.
+<br><b>Tech:</b> Python
 
-### MODULE 03 — MISSION CONTROL (Career Roadmap)
+</td>
+<td width="50%" valign="top">
 
-```mermaid
-flowchart TD
-    A[Python & Bash] --> B[Linux Mastery]
-    B --> C[Networking & Infrastructure]
-    C --> D[ISC2 CC]
-    D --> E[eJPT]
-    E --> F[PJPT]
-    F --> G[OSCP]
-    G --> H[CISSP]
-    H --> I[Security Engineer]
-```
+### 🤖 JARVIS Lite
+Terminal-based AI assistant powered by the Claude API, with a sarcastic Hinglish-speaking persona.
+<br><b>Tech:</b> Python, Claude API
 
----
+</td>
+</tr>
+</table>
 
-### MODULE 04 — MODULES LOADED (Active Operations)
+<br>
 
-| Operation | Status | Version | Language | Description |
-|---------|--------|--------|----------|-----------|
-| **[Overlord-C2-Framework](https://github.com/sethji-x/Overlord-C2-Framework)** | Active | v0.1 | Python | Educational remote monitoring framework |
-| **[-SysWatch](https://github.com/sethji-x/-SysWatch)** | Active | v0.2 | Python + ML | AI-powered security monitoring system |
-| **[Advance-Port-Scanner](https://github.com/sethji-x/Advance-Port-Scanner)** | Active | v1.0 | Python | Multi-threaded recon tool with service detection |
+## ☠️ Weapons of Choice
 
----
+<div align="center">
 
-### MODULE 05 — LEARNING MATRIX
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=B90E0E)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-000000?style=for-the-badge&logo=kalilinux&logoColor=1B3A6B)
+![Parrot OS](https://img.shields.io/badge/Parrot_OS-000000?style=for-the-badge&logo=parrotsecurity&logoColor=B90E0E)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-000000?style=for-the-badge&logo=burpsuite&logoColor=1B3A6B)
+![Nmap](https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=B90E0E)
+![Wireshark](https://img.shields.io/badge/Wireshark-000000?style=for-the-badge&logo=wireshark&logoColor=1B3A6B)
+![Metasploit](https://img.shields.io/badge/Metasploit-000000?style=for-the-badge&logo=metasploit&logoColor=B90E0E)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-000000?style=for-the-badge&logo=virtualbox&logoColor=1B3A6B)
 
-**Current Focus**  
-- Advanced Linux internals & scripting  
-- Network reconnaissance & enumeration  
-- Web application security  
+</div>
 
-**Next Targets**  
-- ISC2 Certified in Cybersecurity (CC)  
-- eJPT → PJPT → OSCP pathway  
+<br>
 
----
+## 📊 Exhumed Stats
 
-### MODULE 06 — SYSTEM TELEMETRY
+<div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sethji-x&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=58A6FF&icon_color=FF6B00)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sethji-x&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=58A6FF)
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=sethji-x&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=B90E0E&icon_color=1B3A6B&text_color=8892b0&ring_color=B90E0E" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sethji-x&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=B90E0E&text_color=8892b0&langs_count=8" />
 
----
+<br>
 
-### MODULE 07 — COMMAND CENTER
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sethji-x&hide_border=true&background=0a0a0f&ring=B90E0E&fire=B90E0E&currStreakLabel=8892b0&sideLabels=8892b0&currStreakNum=c9cdd8&sideNums=c9cdd8&dates=5a6180" />
 
-<p align="center">
-  <a href="https://github.com/sethji-x"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/akshat-aggarwal-cyber/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://tryhackme.com/p/sethji.x"><img src="https://img.shields.io/badge/TryHackMe-212121?style=for-the-badge&logo=tryhackme&logoColor=white" /></a>
-  <a href="https://app.hackthebox.com/profile/drSHADOW"><img src="https://img.shields.io/badge/Hack%20The%20Box-111111?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" /></a>
-  <a href="mailto:aggarwalsahab2707@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
+</div>
 
----
+<br>
 
-### MODULE 08 — SHUTDOWN SEQUENCE
+## 🐍 The Snake That Ate My Commits
 
-```bash
-┌──[AEGIS]──(operator@sethji-x)-[~]
-└─$ logout
+<div align="center">
+<img src="https://raw.githubusercontent.com/sethji-x/sethji-x/output/github-contribution-grid-snake-dark.svg" alt="snake animation"/>
+</div>
 
-Saving session...
-Stopping ATLAS AI...
-Disconnecting from secure channel...
-System Halted.
+<br>
 
-Goodbye, Operator.
-Stay ethical. Stay sharp.
-```
+## 🧛 Reach Me in the Land of the Living
 
----
+<div align="center">
 
-**AEGIS System v1.0** | Built with precision • Maintained with discipline
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=1B3A6B)](https://www.linkedin.com/in/akshat-aggarwal-cyber/)
+[![Hack The Box](https://img.shields.io/badge/Hack_The_Box-000000?style=for-the-badge&logo=hackthebox&logoColor=B90E0E)](https://app.hackthebox.com/profile/drSHADOW)
+
+</div>
+
+<br>
+
+<div align="center">
+<img src="./assets/banner.svg" width="100%" alt="footer"/>
+<sub>🕯️ thanks for visiting the graveyard — don't wake anything up</sub>
+</div>
