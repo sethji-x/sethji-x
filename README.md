@@ -20,7 +20,7 @@ Long-term target: Ethical Hacker, Google (CISO track).
 
 - 🔭 Building offensive-security tools from scratch — because reading about exploits is not the same as burying one yourself
 - 🩸 Interested in Red Teaming, C2 architecture, and network security
-- 🕯️ Currently sharpening skills for **ISC2 CC → CEH → OSCP → CISSP**
+- 🕯️ Currently sharpening skills for **ISC2 CC → eJPT → PJPT→ OSCP → CISSP**
 - 🦇 Fun fact: I'd rather break something to understand it than read the manual
 
 <br>
