@@ -1,110 +1,133 @@
-<svg width="1600" height="400" viewBox="0 0 1600 400" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="420" viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#03050a"/>
-      <stop offset="45%" stop-color="#0a1128"/>
-      <stop offset="75%" stop-color="#142850"/>
-      <stop offset="100%" stop-color="#1b1030"/>
+      <stop offset="0%" stop-color="#02040a"/>
+      <stop offset="40%" stop-color="#0a1228"/>
+      <stop offset="75%" stop-color="#121a35"/>
+      <stop offset="100%" stop-color="#0d0a18"/>
     </linearGradient>
     <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ff4d4d" stop-opacity="0.95"/>
-      <stop offset="35%" stop-color="#b90e0e" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#b90e0e" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#c9d4f0" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#6b7a9e" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0a1228" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="moonCore" cx="40%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#ffe3e3"/>
-      <stop offset="60%" stop-color="#ff6b6b"/>
-      <stop offset="100%" stop-color="#8b0000"/>
+    <radialGradient id="moonCore" cx="38%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#f0f4ff"/>
+      <stop offset="55%" stop-color="#c5d0e8"/>
+      <stop offset="100%" stop-color="#7a889e"/>
     </radialGradient>
     <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d0d12"/>
+      <stop offset="0%" stop-color="#0c0c12"/>
       <stop offset="100%" stop-color="#000000"/>
     </linearGradient>
+    <linearGradient id="cloudGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2238" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0d1320" stop-opacity="0.4"/>
+    </linearGradient>
     <filter id="blurFog" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="14"/>
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="1600" height="400" fill="url(#sky)"/>
+  <!-- Sky -->
+  <rect width="1600" height="420" fill="url(#sky)"/>
 
-  <!-- stars -->
+  <!-- Distant stars -->
   <g fill="#cdd6f4">
-    <circle cx="120" cy="45" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
-    <circle cx="260" cy="90" r="1.1"><animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="480" cy="40" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="700" cy="70" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
-    <circle cx="900" cy="35" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/></circle>
-    <circle cx="1550" cy="60" r="1.3"><animate attributeName="opacity" values="1;0.3;1" dur="3.3s" repeatCount="indefinite"/></circle>
-    <circle cx="80" cy="150" r="1.1"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
-    <circle cx="1000" cy="110" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="95" cy="38" r="1.2"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="72" r="1.0"><animate attributeName="opacity" values="1;0.2;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="380" cy="28" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="65" r="0.9"><animate attributeName="opacity" values="1;0.3;1" dur="3.2s" repeatCount="indefinite"/></circle>
+    <circle cx="780" cy="42" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="55" r="1.1"><animate attributeName="opacity" values="1;0.25;1" dur="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1180" cy="30" r="1.5"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1420" cy="48" r="1.0"><animate attributeName="opacity" values="1;0.2;1" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1550" cy="80" r="1.2"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="4.3s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- moon -->
-  <circle cx="1350" cy="95" r="110" fill="url(#moonGlow)">
-    <animate attributeName="r" values="105;120;105" dur="5s" repeatCount="indefinite"/>
+  <!-- Moving clouds -->
+  <g opacity="0.55">
+    <ellipse cx="200" cy="90" rx="140" ry="28" fill="url(#cloudGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 180,0; 0,0" dur="48s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="900" cy="60" rx="180" ry="32" fill="url(#cloudGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -220,0; 0,0" dur="55s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1400" cy="100" rx="160" ry="26" fill="url(#cloudGrad)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 140,0; 0,0" dur="42s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Moon -->
+  <circle cx="1280" cy="85" r="95" fill="url(#moonGlow)">
+    <animate attributeName="r" values="90;102;90" dur="7s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1350" cy="95" r="46" fill="url(#moonCore)"/>
+  <circle cx="1280" cy="85" r="38" fill="url(#moonCore)"/>
 
-  <!-- bats -->
-  <g fill="#0a0a0f">
-    <path d="M0,0 C-10,-8 -20,-6 -22,2 C-14,-1 -8,0 0,4 C8,0 14,-1 22,2 C20,-6 10,-8 0,0 Z">
-      <animateTransform attributeName="transform" type="scale" values="1,1;1,0.5;1,1" dur="0.5s" repeatCount="indefinite" additive="sum"/>
+  <!-- Subtle lightning flash -->
+  <g opacity="0">
+    <path d="M720,0 L745,55 L725,55 L760,130" stroke="#a8c0e8" stroke-width="2.5" fill="none" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0;0;0.85;0;0;0;0.6;0;0" dur="9s" repeatCount="indefinite"/>
     </path>
-    <animateMotion dur="9s" repeatCount="indefinite" path="M1500,60 C1200,20 900,140 600,50 C400,-10 150,90 -50,40" />
-  </g>
-  <g fill="#0a0a0f" opacity="0.85">
-    <path d="M0,0 C-8,-6 -15,-4 -17,1 C-11,-1 -6,0 0,3 C6,0 11,-1 17,1 C15,-4 8,-6 0,0 Z">
-      <animateTransform attributeName="transform" type="scale" values="1,1;1,0.5;1,1" dur="0.4s" repeatCount="indefinite" additive="sum"/>
+    <path d="M1100,0 L1085,40 L1110,40 L1070,95" stroke="#b8d0f0" stroke-width="2" fill="none" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0;0;0;0;0.7;0;0;0;0" dur="11s" repeatCount="indefinite"/>
     </path>
-    <animateMotion dur="7s" begin="1.5s" repeatCount="indefinite" path="M1600,180 C1300,120 1000,220 700,150 C450,100 200,180 -50,130" />
   </g>
 
-  <!-- distant hill -->
-  <path d="M0,300 Q400,250 800,290 T1600,270 L1600,400 L0,400 Z" fill="#080810"/>
-  <!-- ground -->
-  <path d="M0,340 Q500,300 900,335 T1600,320 L1600,400 L0,400 Z" fill="url(#ground)"/>
+  <!-- Distant hills -->
+  <path d="M0,290 Q350,240 700,280 T1600,255 L1600,420 L0,420 Z" fill="#07070e"/>
+  <path d="M0,320 Q450,285 850,315 T1600,300 L1600,420 L0,420 Z" fill="url(#ground)"/>
 
-  <!-- dead trees -->
-  <g stroke="#050507" stroke-width="5" stroke-linecap="round" fill="none">
-    <path d="M120,340 L110,290 M110,290 L90,260 M110,290 L130,255 M120,340 L135,300 M135,300 L150,270"/>
-    <path d="M1480,330 L1470,285 M1470,285 L1450,255 M1470,285 L1495,250"/>
+  <!-- Dead trees (minimal, elegant) -->
+  <g stroke="#0a0a10" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.9">
+    <path d="M95,340 L88,280 M88,280 L70,250 M88,280 L105,245 M95,340 L115,295 M115,295 L130,265"/>
+    <path d="M1510,335 L1500,275 M1500,275 L1480,245 M1500,275 L1520,240"/>
   </g>
 
-  <!-- tombstones -->
+  <!-- Gravestones representing buried vulnerabilities -->
   <g>
-    <g>
-      <path d="M300,360 L300,300 A40,40 0 0 1 380,300 L380,360 Z" fill="#111116" stroke="#b90e0e" stroke-width="2"/>
-      <text x="340" y="330" font-family="Georgia, serif" font-size="13" fill="#8892b0" text-anchor="middle">R.I.P</text>
-      <text x="340" y="347" font-family="Georgia, serif" font-size="10" fill="#5a6180" text-anchor="middle">boring READMEs</text>
-    </g>
-    <g>
-      <path d="M700,365 L700,295 A45,45 0 0 1 790,295 L790,365 Z" fill="#0e0e13" stroke="#1b3a6b" stroke-width="2"/>
-      <text x="745" y="325" font-family="Georgia, serif" font-size="15" fill="#c9cdd8" text-anchor="middle">AKSHAT</text>
-      <text x="745" y="343" font-family="Georgia, serif" font-size="15" fill="#c9cdd8" text-anchor="middle">AGGARWAL</text>
-    </g>
-    <g>
-      <path d="M980,362 L980,305 A38,38 0 0 1 1056,305 L1056,362 Z" fill="#111116" stroke="#b90e0e" stroke-width="2"/>
-      <text x="1018" y="333" font-family="Georgia, serif" font-size="12" fill="#8892b0" text-anchor="middle">weak</text>
-      <text x="1018" y="349" font-family="Georgia, serif" font-size="12" fill="#8892b0" text-anchor="middle">passwords</text>
-    </g>
+    <!-- Left stone -->
+    <path d="M280,355 L280,295 A35,35 0 0 1 350,295 L350,355 Z" fill="#101018" stroke="#3a4558" stroke-width="1.5"/>
+    <text x="315" y="320" font-family="Georgia, serif" font-size="11" fill="#6b7a94" text-anchor="middle">WEAK</text>
+    <text x="315" y="335" font-family="Georgia, serif" font-size="11" fill="#6b7a94" text-anchor="middle">IAM</text>
+
+    <!-- Center name stone -->
+    <path d="M680,360 L680,280 A55,55 0 0 1 790,280 L790,360 Z" fill="#0e0e15" stroke="#4a5a78" stroke-width="2"/>
+    <text x="735" y="315" font-family="Georgia, serif" font-size="16" fill="#c5d0e8" text-anchor="middle" font-weight="600">AKSHAT</text>
+    <text x="735" y="335" font-family="Georgia, serif" font-size="16" fill="#c5d0e8" text-anchor="middle" font-weight="600">AGGARWAL</text>
+
+    <!-- Right stone -->
+    <path d="M1050,355 L1050,300 A32,32 0 0 1 1115,300 L1115,355 Z" fill="#101018" stroke="#3a4558" stroke-width="1.5"/>
+    <text x="1082" y="322" font-family="Georgia, serif" font-size="10" fill="#6b7a94" text-anchor="middle">OPEN</text>
+    <text x="1082" y="336" font-family="Georgia, serif" font-size="10" fill="#6b7a94" text-anchor="middle">BUCKETS</text>
   </g>
 
-  <!-- candle flicker -->
-  <circle cx="745" cy="368" r="4" fill="#ff8c42">
-    <animate attributeName="opacity" values="0.4;1;0.5;0.9;0.4" dur="1.4s" repeatCount="indefinite"/>
-    <animate attributeName="r" values="3;5;3.5;4.5;3" dur="1.4s" repeatCount="indefinite"/>
+  <!-- Soft candle light near center stone -->
+  <circle cx="735" cy="365" r="5" fill="#d4a574">
+    <animate attributeName="opacity" values="0.35;0.9;0.45;0.85;0.35" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="3.5;5.5;4;5;3.5" dur="1.6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- fog layers -->
-  <g filter="url(#blurFog)" opacity="0.35">
-    <ellipse cx="200" cy="370" rx="260" ry="30" fill="#7d8597">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 120,0; 0,0" dur="14s" repeatCount="indefinite"/>
+  <!-- Fog layers -->
+  <g filter="url(#blurFog)" opacity="0.38">
+    <ellipse cx="180" cy="380" rx="280" ry="32" fill="#8a93a8">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 130,0; 0,0" dur="22s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="900" cy="380" rx="320" ry="35" fill="#8892b0">
-      <animateTransform attributeName="transform" type="translate" values="0,0; -150,0; 0,0" dur="18s" repeatCount="indefinite"/>
+    <ellipse cx="850" cy="390" rx="340" ry="36" fill="#7d8799">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -160,0; 0,0" dur="28s" repeatCount="indefinite"/>
     </ellipse>
-    <ellipse cx="1400" cy="375" rx="280" ry="28" fill="#7d8597">
-      <animateTransform attributeName="transform" type="translate" values="0,0; 100,0; 0,0" dur="16s" repeatCount="indefinite"/>
+    <ellipse cx="1450" cy="385" rx="260" ry="30" fill="#8a93a8">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 110,0; 0,0" dur="25s" repeatCount="indefinite"/>
     </ellipse>
   </g>
+
+  <!-- Subtle title text at bottom of banner -->
+  <text x="800" y="405" font-family="Georgia, serif" font-size="13" fill="#5a6780" text-anchor="middle" letter-spacing="3">BUILDING SECURE CLOUD INFRASTRUCTURE</text>
 </svg>
